@@ -34,3 +34,5 @@ the hash of the previous Block. This is crucial because it’s what gives blockc
 If an attacker corrupted an earlier Block in the chain then all subsequent blocks will contain incorrect hashes.
 
 Does this make sense? If it doesn’t, take some time to let it sink in—it’s the core idea behind blockchains.
+
+Credit: To Daniel van Flymen, Blockchain Engineer from NYC
