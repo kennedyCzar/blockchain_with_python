@@ -17,7 +17,7 @@ and the hash of the previous Block.
 Here’s an example of what a single Block looks like:
 
 '''
--block = {
+block = {
  -   'index': 1,
   -  'timestamp': 1506057125.900785,
    - 'transactions': [
