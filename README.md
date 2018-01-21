@@ -15,7 +15,7 @@ a list of transactions, a proof (more on that later),
 and the hash of the previous Block.
 
 Here’s an example of what a single Block looks like:
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>Start
 block = {
     'index': 1,
     'timestamp': 1506057125.900785,
@@ -27,7 +27,7 @@ block = {
         }
     ],
     
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>End
 At this point, the idea of a chain should be apparent—each new block contains within itself, 
 the hash of the previous Block. This is crucial because it’s what gives blockchains immutability: 
 If an attacker corrupted an earlier Block in the chain then all subsequent blocks will contain incorrect hashes.
